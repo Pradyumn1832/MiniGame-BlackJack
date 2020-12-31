@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/jack-spade-heart-ace-card-with-casino-chip-stack-green-poker-table_23-2147881160.jpg?size=626&ext=jpg);
+    color:thistle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-1{
+    border:1px solid black;
+    margin: 0 auto;
+    text-align:center;
+    justify-content: space-around;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width:75%;
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3,.flex-blackjack-row-4 {
+    border:1px solid black;
+    margin: 0 auto;
+    text-align:center;
+    justify-content: space-around;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.flex-blackjack-row-2{
+    height:400px;
+    display:flex;
+    color:white;
+}
+.flex-blackjack-row-2 div{
+    flex:1;
+    border:2px solid black;
+    text-align:center;
+    padding:10px;
+}
+.flex-blackjack-row-2,.flex-blackjack-row-3 {
+    background-image: url(https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=6&m=453187915&s=612x612&w=0&h=kB43IY-gj4jbxw-_gxsXK11ar2kR8JJjxLX-aXTvjdQ=);
+}
+.flex-blackjack-row-4,.flex-blackjack-row-3,.flex-blackjack-row-2{
+    padding :10px;
+}
+table,th,td{
+    border:2px solid black;
+    color:white;
+    margin:0 auto;
+    padding :6px;
+}
+.flex-blackjack-row-2 img{
+    width:25%;
+    padding:10px;
+}
